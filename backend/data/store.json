@@ -1,0 +1,385 @@
+{
+  "banks": [
+    {
+      "id": "bank-a",
+      "name": "Blood Bank A",
+      "isPrimary": true,
+      "inventory": [
+        {
+          "group": "A+",
+          "stock": 25,
+          "minimum": 15
+        },
+        {
+          "group": "A-",
+          "stock": 8,
+          "minimum": 8
+        },
+        {
+          "group": "B+",
+          "stock": 18,
+          "minimum": 12
+        },
+        {
+          "group": "B-",
+          "stock": 7,
+          "minimum": 7
+        },
+        {
+          "group": "AB+",
+          "stock": 10,
+          "minimum": 8
+        },
+        {
+          "group": "AB-",
+          "stock": 3,
+          "minimum": 5
+        },
+        {
+          "group": "O+",
+          "stock": 4,
+          "minimum": 10
+        },
+        {
+          "group": "O-",
+          "stock": 8,
+          "minimum": 6
+        }
+      ]
+    },
+    {
+      "id": "bank-b",
+      "name": "Blood Bank B",
+      "isPrimary": false,
+      "inventory": [
+        {
+          "group": "A+",
+          "stock": 13,
+          "minimum": 10
+        },
+        {
+          "group": "A-",
+          "stock": 5,
+          "minimum": 5
+        },
+        {
+          "group": "B+",
+          "stock": 12,
+          "minimum": 8
+        },
+        {
+          "group": "B-",
+          "stock": 3,
+          "minimum": 5
+        },
+        {
+          "group": "AB+",
+          "stock": 8,
+          "minimum": 5
+        },
+        {
+          "group": "AB-",
+          "stock": 4,
+          "minimum": 3
+        },
+        {
+          "group": "O+",
+          "stock": 14,
+          "minimum": 10
+        },
+        {
+          "group": "O-",
+          "stock": 5,
+          "minimum": 5
+        }
+      ]
+    },
+    {
+      "id": "bank-c",
+      "name": "Blood Bank C",
+      "isPrimary": false,
+      "inventory": [
+        {
+          "group": "A+",
+          "stock": 10,
+          "minimum": 10
+        },
+        {
+          "group": "A-",
+          "stock": 15,
+          "minimum": 5
+        },
+        {
+          "group": "B+",
+          "stock": 8,
+          "minimum": 8
+        },
+        {
+          "group": "B-",
+          "stock": 5,
+          "minimum": 5
+        },
+        {
+          "group": "AB+",
+          "stock": 6,
+          "minimum": 5
+        },
+        {
+          "group": "AB-",
+          "stock": 3,
+          "minimum": 3
+        },
+        {
+          "group": "O+",
+          "stock": 12,
+          "minimum": 10
+        },
+        {
+          "group": "O-",
+          "stock": 10,
+          "minimum": 5
+        }
+      ]
+    },
+    {
+      "id": "bank-d",
+      "name": "Blood Bank D",
+      "isPrimary": false,
+      "inventory": [
+        {
+          "group": "A+",
+          "stock": 12,
+          "minimum": 10
+        },
+        {
+          "group": "A-",
+          "stock": 4,
+          "minimum": 5
+        },
+        {
+          "group": "B+",
+          "stock": 14,
+          "minimum": 8
+        },
+        {
+          "group": "B-",
+          "stock": 12,
+          "minimum": 5
+        },
+        {
+          "group": "AB+",
+          "stock": 7,
+          "minimum": 5
+        },
+        {
+          "group": "AB-",
+          "stock": 2,
+          "minimum": 3
+        },
+        {
+          "group": "O+",
+          "stock": 15,
+          "minimum": 10
+        },
+        {
+          "group": "O-",
+          "stock": 7,
+          "minimum": 5
+        }
+      ]
+    },
+    {
+      "id": "bank-e",
+      "name": "Blood Bank E",
+      "isPrimary": false,
+      "inventory": [
+        {
+          "group": "A+",
+          "stock": 9,
+          "minimum": 10
+        },
+        {
+          "group": "A-",
+          "stock": 6,
+          "minimum": 5
+        },
+        {
+          "group": "B+",
+          "stock": 10,
+          "minimum": 8
+        },
+        {
+          "group": "B-",
+          "stock": 4,
+          "minimum": 5
+        },
+        {
+          "group": "AB+",
+          "stock": 16,
+          "minimum": 5
+        },
+        {
+          "group": "AB-",
+          "stock": 10,
+          "minimum": 3
+        },
+        {
+          "group": "O+",
+          "stock": 11,
+          "minimum": 10
+        },
+        {
+          "group": "O-",
+          "stock": 6,
+          "minimum": 5
+        }
+      ]
+    }
+  ],
+  "requests": [
+    {
+      "id": "req_1791867681041_900",
+      "bloodGroup": "O+",
+      "units": 9999,
+      "urgency": "Normal",
+      "hospitalName": "City General Hospital",
+      "status": "Pending",
+      "createdAt": "2026-10-13T05:01:21.041Z"
+    },
+    {
+      "id": "req_1791867680996_33",
+      "bloodGroup": "O+",
+      "units": 2,
+      "urgency": "Emergency",
+      "hospitalName": "Memorial Hospital",
+      "status": "Issued",
+      "createdAt": "2026-10-13T05:01:20.996Z",
+      "issuedAt": "2026-10-13T05:01:21.024Z",
+      "issuedFromBank": "Blood Bank A",
+      "issuedBankId": "bank-a",
+      "unitsIssued": 2
+    },
+    {
+      "id": "req_1791831915830_816",
+      "bloodGroup": "O+",
+      "units": 9999,
+      "urgency": "Normal",
+      "hospitalName": "City General Hospital",
+      "status": "Pending",
+      "createdAt": "2026-10-12T19:05:15.830Z"
+    },
+    {
+      "id": "req_1791831915801_377",
+      "bloodGroup": "O+",
+      "units": 2,
+      "urgency": "Emergency",
+      "hospitalName": "Memorial Hospital",
+      "status": "Issued",
+      "createdAt": "2026-10-12T19:05:15.801Z",
+      "issuedAt": "2026-10-12T19:05:15.819Z",
+      "issuedFromBank": "Blood Bank A",
+      "issuedBankId": "bank-a",
+      "unitsIssued": 2
+    },
+    {
+      "id": "req_1791831789011_103",
+      "bloodGroup": "A+",
+      "units": 7,
+      "urgency": "Urgent",
+      "hospitalName": "City General Hospital",
+      "status": "Issued",
+      "createdAt": "2026-10-12T19:03:09.011Z",
+      "issuedAt": "2026-10-12T19:03:11.128Z",
+      "issuedFromBank": "Blood Bank A",
+      "issuedBankId": "bank-a",
+      "unitsIssued": 7
+    },
+    {
+      "id": "req_demo_1",
+      "bloodGroup": "O+",
+      "units": 4,
+      "urgency": "Emergency",
+      "hospitalName": "City General Hospital",
+      "status": "Issued",
+      "createdAt": "2026-10-12T10:00:00.000Z",
+      "issuedAt": "2026-10-12T19:03:13.835Z",
+      "issuedFromBank": "Blood Bank A",
+      "issuedBankId": "bank-a",
+      "unitsIssued": 4
+    }
+  ],
+  "transfers": [
+    {
+      "id": "xfer_1791867681057_209",
+      "sourceBankId": "bank-b",
+      "sourceBankName": "Blood Bank B",
+      "destinationBankId": "bank-a",
+      "destinationBankName": "Blood Bank A",
+      "group": "O+",
+      "units": 3,
+      "timestamp": "2026-10-13T05:01:21.057Z",
+      "status": "Completed",
+      "note": "Routine shortage rebalance"
+    },
+    {
+      "id": "xfer_1791831915844_268",
+      "sourceBankId": "bank-b",
+      "sourceBankName": "Blood Bank B",
+      "destinationBankId": "bank-a",
+      "destinationBankName": "Blood Bank A",
+      "group": "O+",
+      "units": 3,
+      "timestamp": "2026-10-12T19:05:15.844Z",
+      "status": "Completed",
+      "note": "Routine shortage rebalance"
+    },
+    {
+      "id": "xfer_1791831844329_469",
+      "sourceBankId": "bank-b",
+      "sourceBankName": "Blood Bank B",
+      "destinationBankId": "bank-a",
+      "destinationBankName": "Blood Bank A",
+      "group": "B-",
+      "units": 3,
+      "timestamp": "2026-10-12T19:04:04.329Z",
+      "status": "Completed",
+      "note": "Redistribution to resolve B- shortage"
+    },
+    {
+      "id": "xfer_1791831841770_393",
+      "sourceBankId": "bank-b",
+      "sourceBankName": "Blood Bank B",
+      "destinationBankId": "bank-a",
+      "destinationBankName": "Blood Bank A",
+      "group": "A-",
+      "units": 3,
+      "timestamp": "2026-10-12T19:04:01.770Z",
+      "status": "Completed",
+      "note": "Redistribution to resolve A- shortage"
+    },
+    {
+      "id": "xfer_1791831838177_525",
+      "sourceBankId": "bank-b",
+      "sourceBankName": "Blood Bank B",
+      "destinationBankId": "bank-a",
+      "destinationBankName": "Blood Bank A",
+      "group": "A+",
+      "units": 2,
+      "timestamp": "2026-10-12T19:03:58.177Z",
+      "status": "Completed",
+      "note": "Redistribution to resolve A+ shortage"
+    },
+    {
+      "id": "xfer_demo_1",
+      "sourceBankId": "bank-b",
+      "sourceBankName": "Blood Bank B",
+      "destinationBankId": "bank-a",
+      "destinationBankName": "Blood Bank A",
+      "group": "O+",
+      "units": 5,
+      "timestamp": "2026-10-12T09:30:00.000Z",
+      "status": "Completed",
+      "note": "Prototype redistribution transfer"
+    }
+  ]
+}
